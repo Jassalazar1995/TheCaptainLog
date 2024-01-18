@@ -3,7 +3,7 @@ import React from "react"
 export default function New() {
     return(
         <div>
-        <form>
+        <form action='/submitted' method='POST'>
             <p>Title</p>
             <input type='text' name ='title' size='15' />
             <p>Please enter your entry</p>
